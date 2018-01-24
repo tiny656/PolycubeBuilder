@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MeshIO">
+      <UniqueIdentifier>{2fee52a4-7362-40fd-955b-e3a7511ed413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshViewer">
+      <UniqueIdentifier>{61460641-1c86-4336-aad1-312476b8fc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyLogger">
+      <UniqueIdentifier>{02afdeaf-ae0f-41c5-908a-e8475c787ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{bcc37005-c895-43b0-9c08-ff67cd91d802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshStructure">
+      <UniqueIdentifier>{26bbb00f-c7f0-48ae-b22a-79355a348ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{7fc050e3-8942-43d8-92a2-3cee92056a68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utility.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TriMesh.h">
+      <Filter>MeshStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyLogger.h">
+      <Filter>TinyLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshIO.h">
+      <Filter>MeshIO</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardHandler.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="PolycubeAlgo.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshViewer.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TetMesh.h">
+      <Filter>MeshStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanValueCoordsAlgo.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryModel.h">
+      <Filter>MeshStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="MappingAlgo.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TriMesh.cpp">
+      <Filter>MeshStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyLogger.cpp">
+      <Filter>TinyLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshIO.cpp">
+      <Filter>MeshIO</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshViewer.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardHandler.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="PolycubeAlgo.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TetMesh.cpp">
+      <Filter>MeshStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanValueCoordsAlgo.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoMetryModel.cpp">
+      <Filter>MeshStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="MappingAlgo.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
